@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master en Css con Victor Robles Web</title>
+    <!-- ese favicon es para el logo del titulo, fijate que sea de 4 x 4 dice el profe -->
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+    <link rel="stylesheet" type="text/css" href="./index-Style.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- INICIO DE LA CABECERA -->
+    <header id="header">
+        <div id="logotipo">
+            <img src="./img/logo.png" alt="logo">
+        </div>
+
+        <h1>
+            <a href="index.html">MÀSTER EN CSS </a>
+        </h1>
+    </header>
+    <!-- fin de la cabecera -->
+
+    <!-- <h1>Proyecto 1 de maquetación</h1> -->
+
+    <!------------- MENU DE NAVEGACION---------- -->
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html">Contenido</a></li>
+            <li><a href="index.html">Requerimientos</a></li>
+            <li><a href="index.html">Lenguajes</a>
+                <ul>
+                    <li>
+                        <a href="index.html">Html</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Css</a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li>
+                <a href="index.html">Frameworks</a>
+                <ul>
+                    <li>
+                        <a href="index.html">SASS</a>
+                    </li>
+                    <li>
+                        <a href="index.html">LESS</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Boostrap 4</a>
+                    </li>
+
+                </ul>
+
+
+
+            </li>
+            <li><a href="index.html">Proyectos</a></li>
+            <li><a href="index.html">El instructor</a></li>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="index.html">Reseñas</a></li>
+            <li><a href="index.html">Contacto</a></li>
+
+
+
+        </ul>
+
+
+
+    </nav>
+
+
+
+    <!---------------- FIN DEL MENU------------- -->
+
+    <!--------- INICIO DEL CONTENIDO CENTRAL--------- -->
+
+    <div id="content">
+        <!-- INICIO DE LA BARRA LATERAL -->
+        <aside id="aside">
+            <div class="widget" id="login">
+                <!-- widget comúnmente es lo que hay en un aside -->
+                <h3>Entrar a la web</h3>
+                <form action="">
+                    <label for="">Usuario:</label>
+                    <input type="text">
+
+                    <label for="">Contraseña:</label>
+                    <input type="password">
+
+                    <input type="submit" value="Entrar">
+
+                </form>
+                <a href="#">Zona de alumnos</a>
+                <a href="#">Zona del profesor</a>
+                <a href="#">Acceso a calificaciones</a>
+                <!-- enlaces mejor que esten fuera de un form -->
+            </div>
+
+            <div class="widget" id="login">
+                <h3 class="blue">Aula virtual 1</h3>
+                <form action="">
+                    <label for="">Nombre de usuario:</label>
+                    <input type="text">
+
+                    <label for="">Contraseña:</label>
+                    <input type="password">
+
+                    <input type="submit" value="Entrar">
+            </div>
+            <div class="widget" id="login">
+                <h3 class="red">Aula virtual 2</h3>
+                <form action="">
+                    <label for="">Nombre de usuario:</label>
+                    <input type="text">
+
+                    <label for="">Contraseña:</label>
+                    <input type="password">
+
+                    <input type="submit" value="Entrar">
+            </div>
+
+            <div class="widget" id="login">
+                <h3>Enlaces de interés</h3>
+                <ul>
+                    <li><a href="https://www.victorroblesweb.es/academy">
+                            Master en JavaScript
+                        </a></li>
+
+                    <li><a href="https://www.victorroblesweb.es/academy">
+                            Master en PHP
+                        </a></li>
+
+                    <li><a href="https://www.victorroblesweb.es/academy">
+                            Master en Webs full-stack
+                        </a></li>
+
+                    <li><a href="https://www.victorroblesweb.es/academy">
+                            Master en Frameworks JS
+                        </a></li>
+
+                    <li><a href="https://www.victorroblesweb.es/academy">
+                            Curso de Git y comandos Linux
+                        </a></li>
+
+                    <li><a href="https://www.victorroblesweb.es/academy">
+                            www.victorrobles.es
+                        </a></li>
+                </ul>
+            </div>
+        </aside>
+
+
+        <!-- FIN DE LA BARRA LATERAL -->
+
+        <!-- ----------Inicio de las Secciones -->
+
+        <div id="sections">
+            <section id="frontend">
+
+                <span class="stickers">
+                    <img class="stickerOne" src="./img/scotch.png" alt="pegatina">
+                    <img class="stickerTwo" src="./img/scotch.png" alt="pegatina">
+                </span>
+
+                <h2 class="titulo">Noticias de Front-end</h2>
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium velit et repellendus
+                        voluptates cupiditate eos consequatur rem ratione explicabo, impedit accusamus quas excepturi
+                        accusantium adipisci sapiente culpa natus repudiandae quam!
+                    </p>
+                    <span class="date">[17-02-2023. Ktn Poledouris]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium velit et repellendus
+                        voluptates cupiditate eos consequatur rem ratione explicabo, impedit accusamus quas excepturi
+                        accusantium adipisci sapiente culpa natus repudiandae quam!
+                    </p>
+                    <span class="date">[17-02-2023. Ktn Poledouris]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium velit et repellendus
+                        voluptates cupiditate eos consequatur rem ratione explicabo, impedit accusamus quas excepturi
+                        accusantium adipisci sapiente culpa natus repudiandae quam!
+                    </p>
+                    <span class="date">[17-02-2023. Ktn Poledouris]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium velit et repellendus
+                        voluptates cupiditate eos consequatur rem ratione explicabo, impedit accusamus quas excepturi
+                        accusantium adipisci sapiente culpa natus repudiandae quam!
+                    </p>
+                    <span class="date">[17-02-2023. Ktn Poledouris]</span>
+                </article>
+
+            </section>
+
+            <!-- */*/*/*/*/*/*/*/*/*/*/*/*/*/*/ -->
+
+            <section id="backend">
+
+                <span class="stickers">
+                    <img class="stickerOne" src="./img/scotch.png" alt="pegatina">
+                    <img class="stickerTwo" src="./img/scotch.png" alt="pegatina">
+                </span>
+
+                <h2 class="titulo red">Noticias de Back-end</h2>
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium velit et repellendus
+                        voluptates cupiditate eos consequatur rem ratione explicabo, impedit accusamus quas excepturi
+                        accusantium adipisci sapiente culpa natus repudiandae quam!
+                    </p>
+                    <span class="date">[17-02-2023. Ktn Poledouris]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium velit et repellendus
+                        voluptates cupiditate eos consequatur rem ratione explicabo, impedit accusamus quas excepturi
+                        accusantium adipisci sapiente culpa natus repudiandae quam!
+                    </p>
+                    <span class="date">[17-02-2023. Ktn Poledouris]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium velit et repellendus
+                        voluptates cupiditate eos consequatur rem ratione explicabo, impedit accusamus quas excepturi
+                        accusantium adipisci sapiente culpa natus repudiandae quam!
+                    </p>
+                    <span class="date">[17-02-2023. Ktn Poledouris]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium velit et repellendus
+                        voluptates cupiditate eos consequatur rem ratione explicabo, impedit accusamus quas excepturi
+                        accusantium adipisci sapiente culpa natus repudiandae quam!
+                    </p>
+                    <span class="date">[17-02-2023. Ktn Poledouris]</span>
+                </article>
+
+            </section>
+
+            <!-- /*/*/*/*/*/*/*/*/**/*/*/*/*/*/**/*/*/*/*/*/*/*/*/*/ -->
+            <section id="instructor">
+
+                <span class="stickers">
+                    <img class="stickerOne" src="./img/scotch.png" alt="pegatina">
+                    <img class="stickerTwo" src="./img/scotch.png" alt="pegatina">
+                </span>
+
+                <h2 class="titulo orange">Noticias del instructor</h2>
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium velit et repellendus
+                        voluptates cupiditate eos consequatur rem ratione explicabo, impedit accusamus quas excepturi
+                        accusantium adipisci sapiente culpa natus repudiandae quam!
+                    </p>
+                    <span class="date">[17-02-2023. Ktn Poledouris]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium velit et repellendus
+                        voluptates cupiditate eos consequatur rem ratione explicabo, impedit accusamus quas excepturi
+                        accusantium adipisci sapiente culpa natus repudiandae quam!
+                    </p>
+                    <span class="date">[17-02-2023. Ktn Poledouris]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium velit et repellendus
+                        voluptates cupiditate eos consequatur rem ratione explicabo, impedit accusamus quas excepturi
+                        accusantium adipisci sapiente culpa natus repudiandae quam!
+                    </p>
+                    <span class="date">[17-02-2023. Ktn Poledouris]</span>
+                </article>
+
+                <article class="article">
+                    <span class="icon">a</span>
+
+                    <p>
+                        <a href="#">Título de la entrada</a>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium velit et repellendus
+                        voluptates cupiditate eos consequatur rem ratione explicabo, impedit accusamus quas excepturi
+                        accusantium adipisci sapiente culpa natus repudiandae quam!
+                    </p>
+                    <span class="date">[17-02-2023. Ktn Poledouris]</span>
+                </article>
+            </section>
+
+            <!-- pondremos aqui la frase para que no se colapse con las sectiones y con un clear both lo podremos ordenar -->
+
+            <!-- <aside id="frase">
+                <blockquote>
+                    <p> Cada vez que estés a punto de señalar un defecto en otra persona, hazte la siguiente pregunta:
+                        ¿Qué
+                        defecto en mí se parece al que estoy a punto de criticar?</p>
+                </blockquote>
+                <cite>Un estoico</cite><br>
+                <a href="#">Leer más frases</a>
+
+            </aside> -->
+
+
+
+        </div>
+        <!-- ----------FIN de las Secciones -->
+
+
+        <aside id="frase">
+            <blockquote>
+                <p> Cada vez que estés a punto de señalar un defecto en otra persona, hazte la siguiente pregunta: ¿Qué
+                    defecto en mí se parece al que estoy a punto de criticar?</p>
+            </blockquote>
+            <cite>Un estoico</cite><br>
+            <a href="#">Leer más frases</a>
+
+        </aside>
+        <!-- CREAMOS CLASE CLEARFIX PARA limpiar LOS FLOATS Y QUE LOS ULTIMOS DOS SE VEAN BIEN EN LA PAGINA WEB -->
+
+        <div class="clearfix"></div>
+
+        <div class="history">
+            <a href="#">[ Ver historicó de noticias]</a>
+        </div>
+        <!-- FIN DEL CONTENIDO CENTRAL -->
+
+
+        <!-- añadimos otro clear fix porque el history esta flotando y esta pegado como lo veras antes en pantalla -->
+
+        <div class="clearfix"></div>
+
+
+        <footer id="footer">
+            <p>&copy; Desarrollado por Christian D. Bogado Gonzalez</p>
+            <p>Más contenido y formación de desarrollo web con Victor Robles en <a
+                    href="https://www.victorrobles.es/academy">web Academy</a></p>
+
+        </footer>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
